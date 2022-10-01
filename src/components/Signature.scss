@@ -1,0 +1,13 @@
+@import "./colors";
+
+.attribution {
+  text-align: center;
+  color: $light-grayish-blue;
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: $soft-red;
+    font-weight: 700;
+  }
+}
