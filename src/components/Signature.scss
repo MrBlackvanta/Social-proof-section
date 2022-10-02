@@ -2,12 +2,19 @@
 
 .attribution {
   text-align: center;
-  color: $light-grayish-blue;
+  color: hsl(333, 80%, 67%);
+  margin-top: 9rem;
 
   a:link,
   a:visited {
     text-decoration: none;
-    color: $soft-red;
+    color: hsl(300, 43%, 22%);
     font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 65.6em) {
+  .attribution {
+    margin-top: 3rem;
   }
 }
